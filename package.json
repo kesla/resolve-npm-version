@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kesla/resolve-npm-verion.git"
+    "url": "git+https://github.com/kesla/resolve-npm-version.git"
   },
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kesla/resolve-npm-verion/issues"
+    "url": "https://github.com/kesla/resolve-npm-version/issues"
   },
-  "homepage": "https://github.com/kesla/resolve-npm-verion#readme",
+  "homepage": "https://github.com/kesla/resolve-npm-version#readme",
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
