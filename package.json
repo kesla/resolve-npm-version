@@ -1,6 +1,6 @@
 {
   "name": "resolve-npm-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Given a json object from a npm compatible regitry and a version or tag, return the latest compatible version",
   "main": "dist/index.js",
   "scripts": {
