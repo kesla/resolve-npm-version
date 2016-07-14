@@ -1,12 +1,12 @@
 import test from 'tapava';
 import resolveNpmVersion from './lib/index';
 
-test('dist-tag', function * (t) {
+test('dist-tag', t => {
   const pkg = {
     'dist-tags': {
       latest: '1.0.0'
     },
-    versions: {
+    'versions': {
       '2.0.0-beta1': {
         version: '2.0.0-beta1'
       },
@@ -26,7 +26,7 @@ test('dist-tag', function * (t) {
   t.deepEqual(actual, expected);
 });
 
-test('version', function * (t) {
+test('version', t => {
   const pkg = {
     versions: {
       '1.0.0': {
@@ -45,7 +45,7 @@ test('version', function * (t) {
   t.deepEqual(actual, expected);
 });
 
-test('unknown version', function * (t) {
+test('unknown version', t => {
   const pkg = {
     versions: {
       '1.0.0': {
@@ -64,7 +64,7 @@ test('unknown version', function * (t) {
   t.is(actual, expected);
 });
 
-test('unknown tag', function * (t) {
+test('unknown tag', t => {
   const pkg = {
     versions: {
       '1.0.0': {
